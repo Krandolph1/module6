@@ -33,23 +33,43 @@
                     </div>
                 </center>
                 <!-- Yellow bar -->
-                <div class="row">
+                <div class="slideshow-container">
                 <!-- Picture 1 -->
-                <div class="column">
+                <div class="myslides fade">
+                    <div class="numbertext">1 / 4</div>
                     <img src="https://www.everythingreptiles.com/wp-content/uploads/2020/03/Bearded-Dragon.jpg" alt="this is a bearded lizard" style="width:100%" class="smallpicture">
+                    <div class="text">caption text</div>
                 </div>
                  <!-- Picture 2 -->
-                <div class="column">
+                <div class="myslides fade">
+                    <div class="numbertext">2 /4</div>
                     <img src="https://i.natgeofe.com/n/e6c936f9-2581-4aad-90fc-ae74afed7549/01-bearded-dragons-nationalgeographic_2205873_4x3.jpg" alt="lizard" style="width:100%" class="smallpicture">
+                    <div class="text">caption two</div>
                 </div>
                  <!-- Picture 3 -->
-                <div class="column">
+                <div class="myslides fade">
+                    <div class="numbertext">3 / 4</div>
                     <img src="https://www.galapagospet.com/wp-content/uploads/2020/10/Bearded-Dragon_HERO.jpg" style="width:100%" class="smallpicture">
+                    <div class="text">caption three</div>
                 </div>
                  <!-- Picture 4 -->
-                <div class="column">
-                        <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/bearded-dragon-care-sheet-hero-image"
+                <div class="myslide fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/bearded-dragon-care-sheet-hero-image"
                         style="width:40" class="smallpicture">
+                    <div class="text">caption four</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
 
             </section>
