@@ -2,6 +2,14 @@ document.getElementById("userName").innerHTML = "Bearded Lizard";
 
 document.getElementById("userName").style.color = "red";
 
+const boxDiv = document.getElementById("box");
+  
+function handleBoxClick(e) {
+    alert("hey,dcode!");
+
+boxDiv.addEventListener("click", handleBoxClick);
+}
+
 
 
 
